@@ -1,0 +1,183 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  display: flex;
+  background-color: black;
+  height: 80px;
+  margin-top: 0
+  fixed;
+}
+
+.title {
+  display: flex;
+  background-color: #b22222;
+  height: 115px;
+  margin-top: 0
+  fixed;
+
+
+}
+
+h1 {
+  font-family: sans-serif;
+  font: helvetica;
+  font-size: 4rem;
+  color: #fff5ee;
+  margin-left: 5vw;
+  letter-spacing: .2rem;
+
+}
+
+@media only screen and (max-width: 1000px) {
+h1 { font-size:20px;}
+}
+
+      .subtitle {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        background-color: #b22222;
+
+      }
+
+      h2 {
+        font: helvetica;
+        font-family: sans-serif;
+        font-size: 1rem;
+        margin-left: 5vw;
+      }
+
+      h2:hover {
+        color: #b22222
+      }
+
+      .Info {
+        display: flex;
+        background-image: url(/af_map.jpg);
+        height: 115px;
+        margin-top: 0;
+
+      }
+
+          p {
+            position: absolute;
+            top: 30px;
+            margin-left: 5vw;
+            margin-top: 280px;
+            width: 100%;
+            font-size: .80rem;
+            font: helvetica;
+            font-family: sans-serif;
+            font-style: bold;
+            text-align: justify;
+            display: block;
+            width: 900px;
+            border-left: solid #b22222;
+            color: black;
+            fixed;
+          }
+
+                  .section2 {
+                      display: flex;
+                      background-color:#f8f8ff;
+                      height: 300px;
+                      flex-flow: column;
+                      align-items: right;
+                      text-align: right;
+                      margin-top: 0;
+                        text-align: right;
+                    }
+
+                  h3 {
+                      font: helvetica;
+                      font-family: sans-serif;
+                      font-size: 2rem;
+                      margin-top: 15px;
+                      margin-bottom: 10px;
+                      margin-left: 75vw;
+                      margin-right: 50PX;
+                      color: #b22222;
+                      text-decoration: underline;
+                      text-align: right;
+                    }
+
+                    .section3 {
+                        display: flex;
+                        background-color: white;
+                        height: 100px;
+                        flex-flow: column;
+                        justify-content: center;
+                        align-items: right;
+                        text-align: right;
+                        margin-top:750PX;
+                        text-align: right;
+                      }
+
+                      h4 {
+                        font: helvetica;
+                        font-family: sans-serif;
+                        font-weight: lighter;
+                        font-size: 1rem;
+                        margin-top: 10px;
+                        margin-left: 60PX;
+                        margin-bottom: 10px;
+                        margin-right: 5vw;
+                        text-align: left;
+                        WIDTH: 750PX;
+                          border-left: solid #b22222;
+                      }
+
+                      .section4 {
+                        display: flex;
+                        background-color: white;
+                          height: 600px;
+                          flex-flow: column;
+                          justify-content: center;
+                          align-items: right;
+                          text-align: right;
+                          margin-top:700PX;
+                          text-align: right;
+}
+                          .section5 {
+                            display: flex;
+                            background-color: white;
+                              height: 400px;
+                              flex-flow: column;
+                              justify-content: center;
+                              align-items: right;
+                              text-align: right;
+                              margin-top:700PX;
+                              text-align: right;
+                            }
+
+
+                            .section6 {
+                              display: flex;
+                              background-color: white;
+                                height: 700px;
+                                flex-flow: column;
+                                justify-content: center;
+                                align-items: right;
+                                text-align: right;
+                                margin-top:700PX;
+                                text-align: right;
+                              }
+
+
+                              .section7 {
+                                display: flex;
+                                background-color: white;
+                                  height: 600px;
+                                  flex-flow: column;
+                                  justify-content: center;
+                                  align-items: right;
+                                  text-align: right;
+                                  margin-top:300PX;
+                                  text-align: right;
+                                }
